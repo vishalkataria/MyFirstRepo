@@ -11,5 +11,8 @@ public class TestClass {
 		print(a);
 		System.out.println(" _ ");
 		System.out.println("this is mod.");
+		print(a);
+		print(a);
+		System.out.println("fe more mods");
 	}
 }
