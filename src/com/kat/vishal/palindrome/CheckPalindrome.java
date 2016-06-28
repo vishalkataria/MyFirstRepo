@@ -6,7 +6,7 @@ public class CheckPalindrome {
 		// TODO Auto-generated method stub
 		PalindromeChecker pc = new PalindromeChecker();
 		
-		if(pc.isPalindrome(123454321)){
+		if(pc.isPalindrome(121)){
 			System.out.println("the integer is palindrome");
 		}
 		if(pc.isPalindrome("aabbccbbaa")){

@@ -25,7 +25,7 @@ public class PalindromeChecker implements CanCheckPalindrome{
 		int rev = 0;
 		int rem =0;
 		
-		while(temp != 1){
+		for(int k = 0 ; k <3 ; k++){
 		rem = temp % 10;
 		rev = (rev*10) + rem;
 		temp = temp / 10;
