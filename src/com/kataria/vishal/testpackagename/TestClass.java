@@ -9,6 +9,7 @@ public class TestClass {
 		int a = 10;
 		
 		print(a);
+		System.out.println(" _ ");
 		
 	}
 }
