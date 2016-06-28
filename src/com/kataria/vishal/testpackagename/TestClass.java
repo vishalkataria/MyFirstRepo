@@ -13,6 +13,7 @@ public class TestClass {
 		System.out.println("this is mod.");
 		print(a);
 		print(a);
+		System.out.println("errorfree");
 		System.out.println("fe more mods");
 	}
 }
