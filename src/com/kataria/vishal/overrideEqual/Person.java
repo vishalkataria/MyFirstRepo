@@ -16,6 +16,9 @@ public class Person {
 		if(obj == this){
 			return true;
 		}
+		if(!(obj instanceof Person)){
+			return false;
+		}
 		
 		Person p = (Person) obj;
 		
@@ -26,5 +29,19 @@ public class Person {
 			return false;
 		}
 		
+	}
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		
+		int hash = name.length() + age;
+		return hash;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return (name + " , " + age);
 	}
 }

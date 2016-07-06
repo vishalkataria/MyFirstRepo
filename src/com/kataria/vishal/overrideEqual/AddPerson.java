@@ -16,7 +16,15 @@ public class AddPerson {
 		Person p4 = new Person("Rajesh", 21);
 
 		Person[] arr = { p1, p4, p3, p2 };
-
+		
+		for(Person z : arr){
+			System.out.println(z.hashCode());
+		}
+		
+		for(Person w : arr){
+			System.out.println(w);
+		}
+		
 		for (Person p : arr) {
 
 			if (list.isEmpty()) {
@@ -37,6 +45,10 @@ public class AddPerson {
 					System.out.println("person added");
 				}
 			}
+		}
+		
+		for(Person px : list){
+			System.out.println(px.toString());
 		}
 
 	}
